@@ -1,0 +1,329 @@
+/* existing code as is ... */
+html,body{
+height: 100%;
+background-color: #e0e0e0;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #e0e0e0;
+    margin: 0px;
+    background-color: white;
+}
+.menubtn{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+     
+}
+.one
+{
+    display: flex;
+    flex: 1;
+    padding-right :40px;
+    padding-left: 40px;
+
+}
+.one input{
+    flex: 1;
+    max-width: 500px;
+    min-width: 100%;
+    height: 30px;
+    background-color:rgba(224, 240, 247, 0.535);
+    border: none;
+    border-radius:2px;
+}
+.two
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-right: 40px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+.three
+{
+    display: flex;
+    text-align: center;
+    margin: 5px 20px 20px;
+padding: 20px 10px;
+    justify-content: space-evenly;
+    background-color: white;
+     
+}
+.cart{
+    margin: 0;
+    padding: 0;
+
+}
+.cart h1{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.four,.box{
+    padding: 0;
+    margin: 0;
+}
+.toy{
+    display: flex;
+    gap: 15px;
+    margin-top: 0;
+
+}
+.toy  div{
+    width: 150px;
+    text-align: center;
+}
+.box  div{
+    width: 150px;
+    text-align: center;
+}
+.toy img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+p{
+    
+    font-weight: bold;
+}
+.three img{
+    width: 80px;height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 2px;
+}
+.mid{
+    margin: 5px 20px 20px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+.slides{
+    display: flex;
+    width: 300%;
+    animation: slide 9s infinite; 
+}
+.slides img{
+    width: 100%;
+    height: 300px;
+   
+    object-fit: cover;
+}
+@keyframes  slide{
+    0% {transform: translateX(0%);}
+    33.33% {transform: translateX(-100%);}
+     66.66% {transform: translateX(-200%);}
+     100% {transform:translateX(0%);}
+
+}
+.images
+{
+   
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.images img
+{
+    height:100px;
+    width: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 2px;
+}
+.vip
+{
+    
+    background-color: white;
+     margin-left: 20px;
+     margin-right: 20px;
+     padding: 20px;
+}
+h1{
+    margin: 5px 5px 5px 5px;
+}
+.four
+{
+    display: flex;
+    text-align: center;
+    margin: 5px 20px 20px;
+padding: 20px 10px;
+    justify-content: space-evenly;
+    background-color: white;
+     
+}
+.toy img{
+     width: 80px;height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 2px;
+}
+.toy{
+     display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.five{
+display: flex;
+    text-align: center;
+    margin: 5px 20px 20px;
+padding: 20px 10px;
+    justify-content: space-evenly;
+    background-color: white;
+     
+}
+.box{
+     display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.box img{
+     
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px ;
+    width: 100%;
+   
+}
+.footer-section{
+    display: flex
+    ;
+    justify-content: space-between;
+     margin-bottom: 30px;
+}
+.footer-section div{
+    width: 30%;
+}
+.footer-section h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.footer-section p{
+    font-size: 14px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.footer-section p:hover{
+    text-decoration: underline;
+}
+.botton{
+    border-top: 1px solid white;
+     margin-top: 30px;
+     padding: 20px 40px ;
+    
+     display: flex;
+     justify-content:space-evenly;
+     align-items: center;
+
+}
+.botton .let{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+     padding-left: 2px;
+      padding-right: 2px;
+        gap: 30px;
+}
+.botton .let a {
+    
+color: white;
+   
+     text-decoration: none;
+
+}
+.botton .let a:hover{
+    text-decoration: underline;
+}
+.botton .right img{
+    height: 25px;
+     margin-left: 10px;
+}
+.summary{
+    margin-left: 20px;
+    margin-right: 20px;
+     margin-bottom: 40px;
+font-size: 17px; 
+color: #787878;
+background-color: #e0e0e0;
+width: 100%;
+} 
+.summary p{
+    font-size: 20px; 
+}
+.summary h2{
+    font-size: 20px;
+    font-weight:600;
+    color: rgb(88, 88, 88);
+
+}
+@media (max-width:768px)
+    {
+.images,.box,.toy{
+ flex-wrap: wrap;
+}
+.mid{
+    flex-wrap: wrap;
+}
+    }
+
+    @media(max-width:768px){
+        .navbar{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .menubtn{
+            display: block;
+        }
+        .one input{
+            margin: 10px 0;
+            width: 100%;
+            max-width: none;
+        }
+        .two{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .three{
+            flex-wrap: wrap;
+        }
+        .footer-section{
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+        }
+        .botton{
+            flex-direction:column;
+            align-items: center;
+            gap: 15px;
+        }
+        .let{
+             justify-content: center;
+        }
+        .right{
+            margin-top: 10px;
+        }
+    }
